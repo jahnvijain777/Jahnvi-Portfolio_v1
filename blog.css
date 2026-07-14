@@ -563,3 +563,12 @@ nav span {
     }
 }
 
+.eyebrow{
+    color: #e2f0ff;
+    text-shadow:
+        0 0 5px #4da3ff,
+        0 0 10px #4da3ff,
+        0 0 20px #4da3ff,
+        0 0 40px #0669ff,
+        0 0 80px #0669ff;
+}
