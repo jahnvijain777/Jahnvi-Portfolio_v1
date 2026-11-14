@@ -1,73 +1,110 @@
-<html>
-    <head>
-        <title>Services</title>
-        <link rel="stylesheet" href="blog.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-        <link rel="icon" href="img.png" type="image/x-icon">
-            <!-- Vercel Web Analytics -->
-            <script>
-                window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-            </script>
-            <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="education.html">Education</a>
-                <a href="skills.html">Skills</a>
-                <a href="services.html" class="active">Services</a>
-                <a href="contact.html">Contact Us</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What I Can Deliver | Jahnvi Jain</title>
+    <link rel="icon" href="img.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="blog.css">
+    <!-- Vercel Web Analytics -->
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+</head>
+<body>
+
+    <!-- Floating Navigation Bar -->
+    <header id="mainHeader">
+        <div class="nav-capsule">
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html#home"><i class="fa-solid fa-house"></i><span>Home</span></a>
+                <a href="index.html#about"><i class="fa-solid fa-user"></i><span>About</span></a>
+                <a href="index.html#projects"><i class="fa-solid fa-folder-open"></i><span>Projects</span></a>
+                <a href="skills.html"><i class="fa-solid fa-layer-group"></i><span>Skills</span></a>
+                <a href="services.html" class="active"><i class="fa-solid fa-briefcase"></i><span>Services</span></a>
+                <a href="education.html"><i class="fa-solid fa-graduation-cap"></i><span>Education</span></a>
+                <a href="contact.html"><i class="fa-solid fa-envelope"></i><span>Contact</span></a>
             </nav>
-        </header>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+                <i class="fa-solid fa-bars"></i>
+                <span>Menu</span>
+            </button>
+        </div>
+    </header>
 
-        <main>
-            <section class="page-shell">
-                <div class="page-hero">
-                    <p class="eyebrow">Services</p>
-                    <h1>What I can provide</h1>
-                    <p class="page-copy">
-                        These are the services I can offer through design, content, and front-end work.
-                    </p>
+    <main class="page-shell">
+        <div class="container">
+            <div class="subpage-hero">
+                <a href="index.html" class="back-home-link">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <span>Back to Full Portfolio</span>
+                </a>
+                <p class="eyebrow"><i class="fa-solid fa-briefcase"></i> Capabilities</p>
+                <h1 style="font-size: clamp(2.2rem, 4vw, 3.2rem); font-weight: 800; margin-bottom: 0.85rem; color: #ffffff;">What I Can Deliver</h1>
+                <p class="section-subtitle" style="text-align: left; max-width: 65ch;">
+                    Design, branding, and front-end creative deliverables created with modern tools and precision.
+                </p>
+            </div>
+
+            <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));">
+                
+                <div class="glass-card service-card">
+                    <div class="service-icon-box"><i class="fa-solid fa-palette"></i></div>
+                    <h3>Canva Projects</h3>
+                    <p>Creating clean, versatile graphic designs, visual assets, presentations, and digital media using Canva.</p>
                 </div>
 
-                <div class="service-grid">
-                    <article class="info-card">
-                        <h2>Portfolio Styling</h2>
-                        <p>Refining personal pages with a clean and polished visual look.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>Website Development</h2>
-                        <p>Creating simple, responsive websites with strong structure.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>Front-end Development</h2>
-                        <p>Building the visible parts of websites with HTML, CSS, and JavaScript.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>Web Design</h2>
-                        <p>Designing attractive layouts that are easy to read and use.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>Brand Logo Design</h2>
-                        <p>Making simple logo concepts for personal or small brand use.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>Canva Designs</h2>
-                        <p>Creating posters, banners, and other visual content in Canva.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>Copywriting</h2>
-                        <p>Writing short, clear, and persuasive text for pages or promotions.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>Blog Writing</h2>
-                        <p>Writing blog-style content that is easy to follow and engaging.</p>
-                    </article>
+                <div class="glass-card service-card">
+                    <div class="service-icon-box"><i class="fa-solid fa-rectangle-ad"></i></div>
+                    <h3>Ad Design</h3>
+                    <p>Designing eye-catching promotional banners, marketing visuals, and engaging social media ad campaigns.</p>
                 </div>
-            </section>
-        </main>
-    </body>
+
+                <div class="glass-card service-card">
+                    <div class="service-icon-box"><i class="fa-solid fa-desktop"></i></div>
+                    <h3>Frontend Design</h3>
+                    <p>Crafting responsive, user-friendly layouts and structured web pages with HTML, CSS, and modern web styling.</p>
+                </div>
+
+                <div class="glass-card service-card">
+                    <div class="service-icon-box"><i class="fa-solid fa-pen-nib"></i></div>
+                    <h3>Brand Design</h3>
+                    <p>Developing cohesive visual branding, color palettes, typography pairings, and polished aesthetic identities.</p>
+                </div>
+
+                <div class="glass-card service-card">
+                    <div class="service-icon-box"><i class="fa-solid fa-feather-pointed"></i></div>
+                    <h3>Copywriting</h3>
+                    <p>Writing clear, compelling copy and structured messaging for landing pages, promotional materials, and web content.</p>
+                </div>
+
+                <div class="glass-card service-card">
+                    <div class="service-icon-box"><i class="fa-solid fa-layer-group"></i></div>
+                    <h3>Product Design</h3>
+                    <p>Structuring user-centered interface mockups, wireframes, functional page flows, and visual product concepts.</p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <p>&copy; 2025–2026 <strong>Jahnvi Jain</strong> · B.Tech CSE (AI &amp; DS) Student</p>
+            </div>
+            <div class="footer-right">
+                <a href="index.html" class="back-to-top">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
 </html>

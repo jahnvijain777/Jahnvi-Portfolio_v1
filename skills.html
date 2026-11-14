@@ -1,68 +1,122 @@
-<html>
-    <head>
-        <title>Skills</title>
-        <link rel="stylesheet" href="blog.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-        <link rel="icon" href="img.png" type="image/x-icon">
-            <!-- Vercel Web Analytics -->
-            <script>
-                window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-            </script>
-            <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="education.html">Education</a>
-                <a href="skills.html" class="active">Skills</a>
-                <a href="services.html">Services</a>
-                <a href="contact.html">Contact Us</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills &amp; Tools | Jahnvi Jain</title>
+    <link rel="icon" href="img.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="blog.css">
+    <!-- Vercel Web Analytics -->
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+</head>
+<body>
+
+    <!-- Floating Navigation Bar -->
+    <header id="mainHeader">
+        <div class="nav-capsule">
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html#home"><i class="fa-solid fa-house"></i><span>Home</span></a>
+                <a href="index.html#about"><i class="fa-solid fa-user"></i><span>About</span></a>
+                <a href="index.html#projects"><i class="fa-solid fa-folder-open"></i><span>Projects</span></a>
+                <a href="skills.html" class="active"><i class="fa-solid fa-layer-group"></i><span>Skills</span></a>
+                <a href="services.html"><i class="fa-solid fa-briefcase"></i><span>Services</span></a>
+                <a href="education.html"><i class="fa-solid fa-graduation-cap"></i><span>Education</span></a>
+                <a href="contact.html"><i class="fa-solid fa-envelope"></i><span>Contact</span></a>
             </nav>
-        </header>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+                <i class="fa-solid fa-bars"></i>
+                <span>Menu</span>
+            </button>
+        </div>
+    </header>
 
-        <main>
-            <section class="page-shell">
-                <div class="page-hero">
-                    <p class="eyebrow">Skills</p>
-                    <h1>Skills I am building right now</h1>
-                    <p class="page-copy">
-                        A mix of technical, creative, and communication skills that help me work on personal projects.
+    <main class="page-shell">
+        <div class="container">
+            <div class="subpage-hero">
+                <a href="index.html" class="back-home-link">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <span>Back to Full Portfolio</span>
+                </a>
+                <p class="eyebrow"><i class="fa-solid fa-layer-group"></i> Technical Stack</p>
+                <h1 style="font-size: clamp(2.2rem, 4vw, 3.2rem); font-weight: 800; margin-bottom: 0.85rem; color: #ffffff;">Technical Skills &amp; Tools</h1>
+                <p class="section-subtitle" style="text-align: left; max-width: 65ch;">
+                    A factual overview of the programming languages, web technologies, and software tools I actively use.
+                </p>
+            </div>
+
+            <div class="skills-proficiency-notice" style="margin-inline: 0; margin-bottom: 2rem;">
+                <i class="fa-solid fa-circle-info"></i>
+                <span>Current Proficiency Level: Intermediate across all listed technical skills</span>
+            </div>
+
+            <div class="skills-container-grid">
+                
+                <!-- Technical Skills -->
+                <div class="glass-card skill-category-card">
+                    <h3>
+                        <i class="fa-solid fa-code"></i>
+                        <span>Technical Skills (Intermediate)</span>
+                    </h3>
+                    <p style="color: var(--text-secondary); font-size: 0.92rem; margin-bottom: 1.25rem;">
+                        Core programming languages, web technologies, and database querying used across my academic coursework and personal projects.
                     </p>
+                    <div class="skills-pills-list">
+                        <div class="skill-pill"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+                        <div class="skill-pill"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+                        <div class="skill-pill"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                        <div class="skill-pill"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-c"></i><span>C++</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-database"></i><span>SQL</span></div>
+                        <div class="skill-pill"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+                        <div class="skill-pill"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+                    </div>
                 </div>
 
-                <div class="service-grid">
-                    <article class="info-card">
-                        <h2>HTML</h2>
-                        <p>Building structured and readable web pages.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>CSS</h2>
-                        <p>Styling layouts, spacing, colors, and responsive design.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>Basic Python</h2>
-                        <p>Using Python for simple logic, practice, and problem solving.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>Basic JavaScript</h2>
-                        <p>Adding simple interactivity and learning scripting fundamentals.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>Canva Design</h2>
-                        <p>Creating clean visuals, posters, and simple digital graphics.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>Writing</h2>
-                        <p>Writing clear, useful, and well-structured content.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>Art</h2>
-                        <p>Using creativity and visual expression in personal projects.</p>
-                    </article>
+                <!-- Tools I Use -->
+                <div class="glass-card skill-category-card">
+                    <h3>
+                        <i class="fa-solid fa-toolbox"></i>
+                        <span>Tools I Use</span>
+                    </h3>
+                    <p style="color: var(--text-secondary); font-size: 0.92rem; margin-bottom: 1.25rem;">
+                        Software environments, AI coding assistants, productivity suites, and design tools I work with daily.
+                    </p>
+                    <div class="skills-pills-list">
+                        <div class="skill-pill"><i class="fa-solid fa-code-branch"></i><span>Visual Studio Code</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-arrow-pointer"></i><span>Cursor</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-message"></i><span>Claude</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-terminal"></i><span>Codex</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-cube"></i><span>IBM Bob</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-palette"></i><span>Canva</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-file-powerpoint"></i><span>PowerPoint</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-table"></i><span>Google Sheets</span></div>
+                        <div class="skill-pill"><i class="fa-brands fa-linux"></i><span>Linux</span></div>
+                    </div>
                 </div>
-            </section>
-        </main>
-    </body>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <p>&copy; 2025–2026 <strong>Jahnvi Jain</strong> · B.Tech CSE (AI &amp; DS) Student</p>
+            </div>
+            <div class="footer-right">
+                <a href="index.html" class="back-to-top">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
 </html>

@@ -1,42 +1,117 @@
-<html>
-    <head>
-        <title>Contact</title>
-        <link rel="stylesheet" href="blog.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-        <link rel="icon" href="img.png" type="image/x-icon">
-            <!-- Vercel Web Analytics -->
-            <script>
-                window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-            </script>
-            <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="education.html">Education</a>
-                <a href="skills.html">Skills</a>
-                <a href="services.html">Services</a>
-                <a href="contact.html" class="active">Contact Us</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Jahnvi Jain</title>
+    <link rel="icon" href="img.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="blog.css">
+    <!-- Vercel Web Analytics -->
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+</head>
+<body>
+
+    <!-- Floating Navigation Bar -->
+    <header id="mainHeader">
+        <div class="nav-capsule">
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html#home"><i class="fa-solid fa-house"></i><span>Home</span></a>
+                <a href="index.html#about"><i class="fa-solid fa-user"></i><span>About</span></a>
+                <a href="index.html#projects"><i class="fa-solid fa-folder-open"></i><span>Projects</span></a>
+                <a href="skills.html"><i class="fa-solid fa-layer-group"></i><span>Skills</span></a>
+                <a href="services.html"><i class="fa-solid fa-briefcase"></i><span>Services</span></a>
+                <a href="education.html"><i class="fa-solid fa-graduation-cap"></i><span>Education</span></a>
+                <a href="contact.html" class="active"><i class="fa-solid fa-envelope"></i><span>Contact</span></a>
             </nav>
-        </header>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+                <i class="fa-solid fa-bars"></i>
+                <span>Menu</span>
+            </button>
+        </div>
+    </header>
 
-        <main>
-            <section class="page-shell">
-                <div class="contact-panel">
-                    <p class="eyebrow">Contact Us</p>
-                    <h1>Let’s talk about your project or hiring need</h1>
-                    <p class="page-copy">
-                        Share your work query, collaboration idea, internship opening, or any other purpose you want to reach out for.
-                    </p>
+    <main class="page-shell">
+        <div class="container">
+            <div class="subpage-hero">
+                <a href="index.html" class="back-home-link">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <span>Back to Full Portfolio</span>
+                </a>
+                <p class="eyebrow"><i class="fa-regular fa-envelope"></i> Let's Connect</p>
+                <h1 style="font-size: clamp(2.2rem, 4vw, 3.2rem); font-weight: 800; margin-bottom: 0.85rem; color: #ffffff;">Get In Touch</h1>
+                <p class="section-subtitle" style="text-align: left; max-width: 65ch;">
+                    Reach out for student collaborations, project discussions, or academic inquiries.
+                </p>
+            </div>
 
-                    <div class="contact-email-card">
-                        <span>Permanent Email</span>
-                        <strong>jahnvijain456@gmail.com</strong>
+            <div class="contact-card-wrapper">
+                <div class="glass-card contact-info-card">
+                    <div class="contact-info-top">
+                        <h3>Start a conversation</h3>
+                        <p>
+                            I am open to connecting with fellow students, developers, and educators. Feel free to copy my direct email below or reach out through my verified social profiles.
+                        </p>
+
+                        <!-- Copy Email Box -->
+                        <div class="email-copy-box">
+                            <div class="email-label-group">
+                                <span>Direct Email</span>
+                                <strong>jahnvijain456@gmail.com</strong>
+                            </div>
+                            <div class="email-action-buttons">
+                                <button class="copy-btn" id="copyEmailBtn" aria-label="Copy email address to clipboard">
+                                    <i class="fa-regular fa-copy"></i>
+                                    <span>Copy Email</span>
+                                </button>
+                                <a href="mailto:jahnvijain456@gmail.com" class="copy-btn mailto-btn" aria-label="Compose email to Jahnvi Jain">
+                                    <i class="fa-regular fa-paper-plane"></i>
+                                    <span>Open Email</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-connect-row">
+                        <span>My verified profiles</span>
+                        <div class="social-pills-cluster">
+                            <a href="https://github.com/jahnvijain777" target="_blank" rel="noopener noreferrer" class="social-badge-link">
+                                <i class="fa-brands fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/jahnvijain777" target="_blank" rel="noopener noreferrer" class="social-badge-link">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://www.instagram.com/mysterious_melody777/" target="_blank" rel="noopener noreferrer" class="social-badge-link">
+                                <i class="fa-brands fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </section>
-        </main>
-    </body>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <p>&copy; 2025–2026 <strong>Jahnvi Jain</strong> · B.Tech CSE (AI &amp; DS) Student</p>
+            </div>
+            <div class="footer-right">
+                <a href="index.html" class="back-to-top">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
 </html>

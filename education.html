@@ -1,57 +1,124 @@
-<html>
-    <head>
-        <title>Education</title>
-        <link rel="stylesheet" href="blog.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-        <link rel="icon" href="img.png" type="image/x-icon">
-            <!-- Vercel Web Analytics -->
-            <script>
-                window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-            </script>
-            <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="education.html" class="active">Education</a>
-                <a href="skills.html">Skills</a>
-                <a href="services.html">Services</a>
-                <a href="contact.html">Contact Us</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education | Jahnvi Jain</title>
+    <link rel="icon" href="img.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="blog.css">
+    <!-- Vercel Web Analytics -->
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+</head>
+<body>
+
+    <!-- Floating Navigation Bar -->
+    <header id="mainHeader">
+        <div class="nav-capsule">
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html#home"><i class="fa-solid fa-house"></i><span>Home</span></a>
+                <a href="index.html#about"><i class="fa-solid fa-user"></i><span>About</span></a>
+                <a href="index.html#projects"><i class="fa-solid fa-folder-open"></i><span>Projects</span></a>
+                <a href="skills.html"><i class="fa-solid fa-layer-group"></i><span>Skills</span></a>
+                <a href="services.html"><i class="fa-solid fa-briefcase"></i><span>Services</span></a>
+                <a href="education.html" class="active"><i class="fa-solid fa-graduation-cap"></i><span>Education</span></a>
+                <a href="contact.html"><i class="fa-solid fa-envelope"></i><span>Contact</span></a>
             </nav>
-        </header>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+                <i class="fa-solid fa-bars"></i>
+                <span>Menu</span>
+            </button>
+        </div>
+    </header>
 
-        <main>
-            <section class="page-shell">
-                <div class="page-hero">
-                    <p class="eyebrow">Education</p>
-                    <h1>My learning journey so far</h1>
-                    <p class="page-copy">
-                        A quick snapshot of my school results, current degree, and the path I am following in tech.
-                    </p>
+    <main class="page-shell">
+        <div class="container">
+            <div class="subpage-hero">
+                <a href="index.html" class="back-home-link">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <span>Back to Full Portfolio</span>
+                </a>
+                <p class="eyebrow"><i class="fa-solid fa-graduation-cap"></i> Academic Foundation</p>
+                <h1 style="font-size: clamp(2.2rem, 4vw, 3.2rem); font-weight: 800; margin-bottom: 0.85rem; color: #ffffff;">Education &amp; Studies</h1>
+                <p class="section-subtitle" style="text-align: left; max-width: 65ch;">
+                    My verified academic degree, standing, and specialized learning path as a B.Tech computer science student.
+                </p>
+            </div>
+
+            <div class="education-timeline" style="margin-inline: 0; max-width: 100%;">
+                
+                <div class="glass-card timeline-card">
+                    <div class="timeline-indicator">
+                        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-body">
+                        <div class="timeline-meta">
+                            <span class="timeline-period">2nd Year, 3rd Semester · Expected Graduation: 2029</span>
+                        </div>
+                        <h3>B.Tech in Computer Science &amp; Engineering</h3>
+                        <p class="timeline-institution">CT University (in collaboration with IBM) · Specialization in Artificial Intelligence and Data Science</p>
+                        <p>
+                            Currently enrolled in the 3rd semester, studying foundational computer science courses including programming (Python, C++), Data Structures, Relational Database Management with SQL, and specialized curricula in AI and Data Science in collaboration with IBM.
+                        </p>
+                    </div>
                 </div>
 
-                <div class="service-grid">
-                    <article class="info-card">
-                        <h2>Current Study</h2>
-                        <p>BTech CSE at CT University, Punjab, specialized in AI and DS.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>Academic Record</h2>
-                        <p>10th: 88.6% and 12th: 73%.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>Specialization</h2>
-                        <p>Focused on AI and DS while building a strong base in computer science fundamentals.</p>
-                    </article>
-                    <article class="info-card">
-                        <h2>Goal</h2>
-                        <p>To become an overall developer with strong skills across different areas of tech.</p>
-                    </article>
+                <div class="glass-card timeline-card">
+                    <div class="timeline-indicator">
+                        <div class="timeline-dot"><i class="fa-solid fa-brain"></i></div>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-body">
+                        <div class="timeline-meta">
+                            <span class="timeline-period">Specialization Focus</span>
+                        </div>
+                        <h3>Artificial Intelligence &amp; Data Science</h3>
+                        <p class="timeline-institution">University Curricula &amp; Applied Work</p>
+                        <p>
+                            Focusing on understanding machine learning fundamentals, predictive modeling, data processing, and hands-on Python model development.
+                        </p>
+                    </div>
                 </div>
-            </section>
-        </main>
-    </body>
+
+                <div class="glass-card timeline-card">
+                    <div class="timeline-indicator">
+                        <div class="timeline-dot"><i class="fa-solid fa-code-commit"></i></div>
+                    </div>
+                    <div class="timeline-body">
+                        <div class="timeline-meta">
+                            <span class="timeline-period">Self-Directed Practice</span>
+                        </div>
+                        <h3>Practical Development &amp; Project Building</h3>
+                        <p class="timeline-institution">Independent Engineering</p>
+                        <p>
+                            Reinforcing university coursework with real project implementation: creating personal web pages with HTML, CSS, JavaScript, developing machine learning models in Python, and tracking code with Git &amp; GitHub.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <p>&copy; 2025–2026 <strong>Jahnvi Jain</strong> · B.Tech CSE (AI &amp; DS) Student</p>
+            </div>
+            <div class="footer-right">
+                <a href="index.html" class="back-to-top">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
 </html>
-  

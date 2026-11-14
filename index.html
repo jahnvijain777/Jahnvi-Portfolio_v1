@@ -1,11 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Home</title>
-    <link rel="stylesheet" href="blog.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahnvi Jain | B.Tech CSE (AI &amp; DS) Student Portfolio</title>
+    <meta name="description" content="Portfolio of Jahnvi Jain - 2nd Year B.Tech Computer Science student specializing in AI & Data Science at CT University (in collaboration with IBM).">
     <link rel="icon" href="img.png" type="image/x-icon">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="blog.css">
+
     <!-- Vercel Web Analytics -->
     <script>
         window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -15,58 +22,458 @@
 
 <body>
 
-<header>
-    <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="education.html">Education</a>
-        <a href="skills.html">Skills</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html">Contact Us</a>
-        <span></span>
-    </nav>
-</header>
-
-<section>
-    <div class="home">
-
-        <div class="home-photo">
-            <img src="img.png" alt="profile pic">
+    <!-- Header & Navigation -->
+    <header id="mainHeader">
+        <div class="nav-capsule">
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="active"><i class="fa-solid fa-house"></i><span>Home</span></a>
+                <a href="#about"><i class="fa-solid fa-user"></i><span>About</span></a>
+                <a href="#projects"><i class="fa-solid fa-folder-open"></i><span>Projects</span></a>
+                <a href="#skills"><i class="fa-solid fa-layer-group"></i><span>Skills</span></a>
+                <a href="#services"><i class="fa-solid fa-briefcase"></i><span>Services</span></a>
+                <a href="#education"><i class="fa-solid fa-graduation-cap"></i><span>Education</span></a>
+                <a href="#contact"><i class="fa-solid fa-envelope"></i><span>Contact</span></a>
+            </nav>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+                <i class="fa-solid fa-bars"></i>
+                <span>Menu</span>
+            </button>
         </div>
+    </header>
 
-        <div class="home-text">
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="container hero-grid">
+                
+                <div class="hero-content">
+                    <h1>Hi, I'm <span class="highlight-text">Jahnvi Jain</span></h1>
 
-            <h1>Hi, I'm <span>Jahnvi</span></h1>
+                    <div class="typewriter-wrapper">
+                        <span>I am a </span>
+                        <span id="typewriter"></span>
+                        <span class="cursor">|</span>
+                    </div>
 
-            <p class="role-line">
-                I am a
-                <span id="typewriter"></span>
-                <span class="cursor">|</span>
-            </p>
+                    <p class="hero-bio">
+                        B.Tech Computer Science student specializing in Artificial Intelligence and Data Science at CT University (in collaboration with IBM). Currently in my 2nd year (3rd semester), actively learning programming, web development, and exploring machine learning model development.
+                    </p>
 
-            <p class="intro">
-                I am Jahnvi, an 18-year-old second-year BTech CSE student at CT University, Punjab.
-                I was born in Ludhiana, and I am specializing in AI and DS while growing into a stronger developer.
-            </p>
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View Projects</span>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-glass">
+                            <span>Get In Touch</span>
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+                    </div>
 
+                    <div class="hero-socials">
+                        <span>Connect</span>
+                        <a href="https://github.com/jahnvijain777" target="_blank" rel="noopener noreferrer" class="social-pill github" aria-label="GitHub Profile" title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jahnvijain777" target="_blank" rel="noopener noreferrer" class="social-pill linkedin" aria-label="LinkedIn Profile" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/mysterious_melody777/" target="_blank" rel="noopener noreferrer" class="social-pill instagram" aria-label="Instagram Profile" title="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="avatar-stage">
+                        <div class="avatar-glow"></div>
+                        <div class="avatar-frame">
+                            <div class="avatar-image-wrapper">
+                                <img src="img.png" alt="Jahnvi Jain" loading="eager" decoding="async">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow"><i class="fa-solid fa-user"></i> About Me</p>
+                    <h2>Student Profile &amp; Background</h2>
+                    <p class="section-subtitle">A snapshot of my current academic standing, degree specialization, and technical focus.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="glass-card about-main-card">
+                        <div>
+                            <h3>Academic Foundation &amp; Practical Learning</h3>
+                            <p>
+                                I am currently pursuing my Bachelor of Technology in Computer Science and Engineering with a specialization in Artificial Intelligence and Data Science at CT University (in collaboration with IBM), in my 2nd year (3rd semester).
+                            </p>
+                            <p>
+                                I focus on building a solid understanding of computer science fundamentals, programming languages, and practical web and machine learning applications. I enjoy hands-on project work, experimenting with design and code, and developing reliable technical skills.
+                            </p>
+                        </div>
+
+                        <div class="about-verified-details">
+                            <div class="detail-pill-box">
+                                <div class="box-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                                <h4>Degree &amp; Stream</h4>
+                                <p>B.Tech CSE (AI &amp; Data Science)</p>
+                            </div>
+                            <div class="detail-pill-box">
+                                <div class="box-icon"><i class="fa-solid fa-building-columns"></i></div>
+                                <h4>University</h4>
+                                <p>CT University (in collab with IBM)</p>
+                            </div>
+                            <div class="detail-pill-box">
+                                <div class="box-icon"><i class="fa-solid fa-calendar"></i></div>
+                                <h4>Standing</h4>
+                                <p>2nd Year, 3rd Semester (Graduating 2029)</p>
+                            </div>
+                            <div class="detail-pill-box">
+                                <div class="box-icon"><i class="fa-solid fa-code-branch"></i></div>
+                                <h4>Focus Areas</h4>
+                                <p>Web Development &amp; AI/DS</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-stats-column">
+                        <div class="glass-card stat-card">
+                            <div class="stat-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                            <div class="stat-details">
+                                <h4>Core Specialization</h4>
+                                <p>Artificial Intelligence &amp; Data Science</p>
+                            </div>
+                        </div>
+
+                        <div class="glass-card stat-card">
+                            <div class="stat-icon"><i class="fa-solid fa-book-open"></i></div>
+                            <div class="stat-details">
+                                <h4>Continuous Learning</h4>
+                                <p>Actively building programming &amp; design projects</p>
+                            </div>
+                        </div>
+
+                        <div class="glass-card stat-card">
+                            <div class="stat-icon"><i class="fa-solid fa-layer-group"></i></div>
+                            <div class="stat-details">
+                                <h4>Practical Projects</h4>
+                                <p>Hands-on work in AI/ML modeling &amp; web development</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow"><i class="fa-solid fa-folder-open"></i> Projects</p>
+                    <h2>Featured Projects</h2>
+                    <p class="section-subtitle">Real projects developed as part of my learning journey in AI/ML and web development.</p>
+                </div>
+
+                <div class="projects-grid">
+                    
+                    <!-- Project 1 -->
+                    <article class="glass-card project-card">
+                        <div class="project-top">
+                            <div class="project-badge-bar">
+                                <span class="project-type-tag">AI / Machine Learning</span>
+                            </div>
+                            <h3 class="project-title">Traffic Sign Recognition</h3>
+                            <p class="project-description">
+                                A Python and AI/ML-based project focused on developing a machine learning model to classify and recognize road traffic signs from visual inputs.
+                            </p>
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Machine Learning</span>
+                                <span class="tech-tag">AI / ML Model Development</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://traffic-sign-recognition-project-gamma.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                                <span>Live Demo</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                            <a href="https://github.com/jahnvijain777/traffic-sign-recognition-project" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-glass">
+                                <span>Code</span>
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="glass-card project-card">
+                        <div class="project-top">
+                            <div class="project-badge-bar">
+                                <span class="project-type-tag">Web Development</span>
+                            </div>
+                            <h3 class="project-title">Personal Portfolio Website</h3>
+                            <p class="project-description">
+                                My personal portfolio website built with HTML, CSS, and JavaScript to showcase my academic path, technical skills, and projects as a B.Tech student.
+                            </p>
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://jahnvijain.vercel.app" class="btn btn-sm btn-primary">
+                                <span>Live Site</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                            <a href="https://github.com/jahnvijain777/Jahnvi-Portfolio_v1" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-glass">
+                                <span>Code</span>
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills & Stack Section -->
+        <section id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow"><i class="fa-solid fa-layer-group"></i> Technical Skills &amp; Stack</p>
+                    <h2>Skills &amp; Tools I Use</h2>
+                    <p class="section-subtitle">Verified programming languages, web technologies, and developer tools in my workflow.</p>
+                </div>
+
+                <div class="skills-proficiency-notice">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <span>Proficiency Level: Intermediate across current technical skills</span>
+                </div>
+
+                <div class="skills-container-grid">
+                    
+                    <!-- Technical Skills -->
+                    <div class="glass-card skill-category-card">
+                        <h3>
+                            <i class="fa-solid fa-code"></i>
+                            <span>Technical Skills (Intermediate)</span>
+                        </h3>
+                        <div class="skills-pills-list">
+                            <div class="skill-pill"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+                            <div class="skill-pill"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+                            <div class="skill-pill"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                            <div class="skill-pill"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                            <div class="skill-pill"><i class="fa-solid fa-c"></i><span>C++</span></div>
+                            <div class="skill-pill"><i class="fa-solid fa-database"></i><span>SQL</span></div>
+                            <div class="skill-pill"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+                            <div class="skill-pill"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Tools I Use -->
+                    <div class="glass-card skill-category-card">
+                        <h3>
+                            <i class="fa-solid fa-toolbox"></i>
+                            <span>Tools I Use</span>
+                        </h3>
+                        <div class="skills-pills-list">
+                            <div class="skill-pill"><i class="fa-solid fa-code-branch"></i><span>Visual Studio Code</span></div>
+                            <div class="skill-pill"><i class="fa-solid fa-arrow-pointer"></i><span>Cursor</span></div>
+                            <div class="skill-pill"><i class="fa-solid fa-message"></i><span>Claude</span></div>
+                            <div class="skill-pill"><i class="fa-solid fa-terminal"></i><span>Codex</span></div>
+                            <div class="skill-pill"><i class="fa-solid fa-cube"></i><span>IBM Bob</span></div>
+                            <div class="skill-pill"><i class="fa-solid fa-palette"></i><span>Canva</span></div>
+                            <div class="skill-pill"><i class="fa-solid fa-file-powerpoint"></i><span>PowerPoint</span></div>
+                            <div class="skill-pill"><i class="fa-solid fa-table"></i><span>Google Sheets</span></div>
+                            <div class="skill-pill"><i class="fa-brands fa-linux"></i><span>Linux</span></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- What I Can Deliver Section -->
+        <section id="services">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow"><i class="fa-solid fa-briefcase"></i> Capabilities</p>
+                    <h2>What I Can Deliver</h2>
+                    <p class="section-subtitle">Design, branding, and front-end creative deliverables created with modern tools and precision.</p>
+                </div>
+
+                <div class="services-grid">
+                    
+                    <div class="glass-card service-card">
+                        <div class="service-icon-box"><i class="fa-solid fa-palette"></i></div>
+                        <h3>Canva Projects</h3>
+                        <p>Creating clean, versatile graphic designs, visual assets, presentations, and digital media using Canva.</p>
+                    </div>
+
+                    <div class="glass-card service-card">
+                        <div class="service-icon-box"><i class="fa-solid fa-rectangle-ad"></i></div>
+                        <h3>Ad Design</h3>
+                        <p>Designing eye-catching promotional banners, marketing visuals, and engaging social media ad campaigns.</p>
+                    </div>
+
+                    <div class="glass-card service-card">
+                        <div class="service-icon-box"><i class="fa-solid fa-desktop"></i></div>
+                        <h3>Frontend Design</h3>
+                        <p>Crafting responsive, user-friendly layouts and structured web pages with HTML, CSS, and modern web styling.</p>
+                    </div>
+
+                    <div class="glass-card service-card">
+                        <div class="service-icon-box"><i class="fa-solid fa-pen-nib"></i></div>
+                        <h3>Brand Design</h3>
+                        <p>Developing cohesive visual branding, color palettes, typography pairings, and polished aesthetic identities.</p>
+                    </div>
+
+                    <div class="glass-card service-card">
+                        <div class="service-icon-box"><i class="fa-solid fa-feather-pointed"></i></div>
+                        <h3>Copywriting</h3>
+                        <p>Writing clear, compelling copy and structured messaging for landing pages, promotional materials, and web content.</p>
+                    </div>
+
+                    <div class="glass-card service-card">
+                        <div class="service-icon-box"><i class="fa-solid fa-layer-group"></i></div>
+                        <h3>Product Design</h3>
+                        <p>Structuring user-centered interface mockups, wireframes, functional page flows, and visual product concepts.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow"><i class="fa-solid fa-book-bookmark"></i> Academic &amp; Learning Path</p>
+                    <h2>Education &amp; Studies</h2>
+                    <p class="section-subtitle">Verified university program, academic progression, and current study focus.</p>
+                </div>
+
+                <div class="education-timeline">
+                    
+                    <div class="glass-card timeline-card">
+                        <div class="timeline-indicator">
+                            <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="timeline-line"></div>
+                        </div>
+                        <div class="timeline-body">
+                            <div class="timeline-meta">
+                                <span class="timeline-period">2nd Year, 3rd Semester · Expected Graduation: 2029</span>
+                            </div>
+                            <h3>B.Tech in Computer Science &amp; Engineering</h3>
+                            <p class="timeline-institution">CT University (in collaboration with IBM) · Specialization: Artificial Intelligence and Data Science</p>
+                            <p>
+                                Actively pursuing coursework covering programming (Python, C++), Data Structures, Database Management with SQL, and specialized AI/DS modules designed in collaboration with IBM.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card timeline-card">
+                        <div class="timeline-indicator">
+                            <div class="timeline-dot"><i class="fa-solid fa-code-commit"></i></div>
+                        </div>
+                        <div class="timeline-body">
+                            <div class="timeline-meta">
+                                <span class="timeline-period">Self-Directed Practice</span>
+                            </div>
+                            <h3>Practical Skill Development &amp; Project Building</h3>
+                            <p class="timeline-institution">Continuous Hands-on Learning</p>
+                            <p>
+                                Applying university theory through self-directed web development and machine learning projects, building personal repositories, and strengthening problem-solving skills.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow"><i class="fa-regular fa-envelope"></i> Get in Touch</p>
+                    <h2>Connect &amp; Reach Out</h2>
+                    <p class="section-subtitle">Reach out for academic collaborations, project discussions, or student opportunities.</p>
+                </div>
+
+                <div class="contact-card-wrapper">
+                    <div class="glass-card contact-info-card">
+                        <div class="contact-info-top">
+                            <h3>Let's talk</h3>
+                            <p>
+                                I am open to connecting with fellow students, mentors, and developers. You can reach out directly via email or connect with me across my verified social platforms.
+                            </p>
+
+                            <!-- Direct Email Box -->
+                            <div class="email-copy-box">
+                                <div class="email-label-group">
+                                    <span>Direct Email</span>
+                                    <strong>jahnvijain456@gmail.com</strong>
+                                </div>
+                                <div class="email-action-buttons">
+                                    <button class="copy-btn" id="copyEmailBtn" aria-label="Copy email address to clipboard">
+                                        <i class="fa-regular fa-copy"></i>
+                                        <span>Copy Email</span>
+                                    </button>
+                                    <a href="mailto:jahnvijain456@gmail.com" class="copy-btn mailto-btn" aria-label="Compose email to Jahnvi Jain">
+                                        <i class="fa-regular fa-paper-plane"></i>
+                                        <span>Open Email</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-connect-row">
+                            <span>My verified profiles</span>
+                            <div class="social-pills-cluster">
+                                <a href="https://github.com/jahnvijain777" target="_blank" rel="noopener noreferrer" class="social-badge-link">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>GitHub</span>
+                                </a>
+                                <a href="https://www.linkedin.com/in/jahnvijain777" target="_blank" rel="noopener noreferrer" class="social-badge-link">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                                <a href="https://www.instagram.com/mysterious_melody777/" target="_blank" rel="noopener noreferrer" class="social-badge-link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <p>&copy; 2025–2026 <strong>Jahnvi Jain</strong> · B.Tech CSE (AI &amp; DS) Student</p>
+            </div>
+            <div class="footer-right">
+                <a href="#home" class="back-to-top">
+                    <span>Back to top</span>
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+            </div>
         </div>
+    </footer>
 
-    </div>
-</section>
-
-<footer>
-    <div class="social-icons">
-        <a href="https://github.com/jahnvijain777" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" title="GitHub profile">
-            <i class="fa-brands fa-github"></i>
-        </a>
-        <a href="https://www.instagram.com/mysterious_melody777/" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile" title="Instagram profile">
-            <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/jahnvijain777" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" title="LinkedIn profile">
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
-    </div>
-</footer>
-<script src="main.js"></script>
-
+    <!-- Interactive Logic -->
+    <script src="main.js"></script>
 </body>
 </html>

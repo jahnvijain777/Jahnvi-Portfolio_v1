@@ -1,77 +1,86 @@
-# 🌐 Jahnvi's Portfolio(version v1)
+# 🌐 Jahnvi Jain - Personal Portfolio Website
 
-My personal portfolio website built using:
+Personal portfolio website of **Jahnvi Jain**, a 2nd-year B.Tech Computer Science student specializing in Artificial Intelligence and Data Science at CT University (in collaboration with IBM).
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-jahnvijain.vercel.app-2563eb?style=for-the-badge&logo=vercel)](https://jahnvijain.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-jahnvijain777-181717?style=for-the-badge&logo=github)](https://github.com/jahnvijain777)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jahnvijain777-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/jahnvijain777)
 
-- ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-- ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+---
 
+## 👩‍💻 About Me
 
+- **Name**: Jahnvi Jain
+- **Role**: B.Tech Computer Science Student
+- **Specialisation**: Artificial Intelligence and Data Science
+- **University**: CT University (in collaboration with IBM)
+- **Academic Standing**: 2nd Year, 3rd Semester
+- **Expected Graduation**: 2029
 
-This project showcases my skills, education, and journey as a Computer Science student while I continue learning web development.
+---
 
-## 🚀 Live Demo
+## 🛠️ Technical Skills (Intermediate)
 
-🌐 https://jahnvijain.vercel.app
+- **Languages & Web**: HTML, CSS, JavaScript, Python, C++, SQL
+- **Version Control**: Git, GitHub
 
-## 📸 Preview
+### Tools I Use
+- Visual Studio Code
+- Cursor
+- Claude
+- Codex
+- IBM Bob
+- Canva
+- PowerPoint
+- Google Sheets
+- Linux
 
-<img width="1085" height="621" alt="image" src="https://github.com/user-attachments/assets/ce684b5f-6641-47ae-82aa-e7f9b0490e9b" />
+---
 
-## ✨ Features
+## 🎨 What I Can Deliver
 
-- Responsive design
-- Smooth navigation
-- Skills section
-- Education section
-- Services section
-- Contact section
-- Social media links
+- **Canva Projects**: Graphic design, presentations, banners, and digital collateral.
+- **Ad Design**: Engaging promotional graphics, marketing banners, and social ads.
+- **Frontend Design**: Clean, responsive, and intuitive web interfaces (HTML, CSS).
+- **Brand Design**: Visual brand identities, color schemes, and aesthetic consistency.
+- **Copywriting**: Clear, engaging, and structured messaging for web and media.
+- **Product Design**: User-centered mockups, wireframes, and design concepts.
 
-## 🛠️ Built With
+---
 
-- HTML5
-- CSS3
-- JavaScript
+## 📂 Featured Projects
+
+### 1. Traffic Sign Recognition
+- A Python and AI/ML-based project focused on developing a machine learning model to classify and recognize road traffic signs from visual inputs.
+- Technologies: Python, Machine Learning
+
+### 2. Personal Portfolio Website
+- My personal portfolio website built with HTML, CSS, and JavaScript to showcase my academic journey, skills, and projects.
+- Repository: [github.com/jahnvijain777/Jahnvi-Portfolio_v1](https://github.com/jahnvijain777/Jahnvi-Portfolio_v1)
+- Live: [jahnvijain.vercel.app](https://jahnvijain.vercel.app)
+
+---
 
 ## 📁 Project Structure
 
 ```
-├── index.html
-├── education.html
-├── skills.html
-├── services.html
-├── contact.html
-├── blog.css
-├── main.js
-├── img.png
-└── README.md
+├── index.html        # Main portfolio homepage with all sections
+├── education.html    # Academic journey & specialization view
+├── skills.html       # Technical skills & tools view
+├── services.html     # What I can deliver view
+├── contact.html      # Direct contact view
+├── blog.css          # Core stylesheet (dark navy & cyan glassmorphism)
+├── main.js           # Interactive script (typewriter, scroll-spy, copy email)
+├── img.png           # Profile photo
+└── README.md         # Portfolio documentation
 ```
-
-## 🎯 Future Improvements
-
-- Add Projects section with real projects
-- Dark/Light mode
-- Better animations
-- Backend contact form
-- Blog section
-- More responsive improvements
-
-## 👩‍💻 About Me
-
-Hi! I'm **Jahnvi Jain**, a second-year B.Tech CSE (AI & DS) student at CT University.
-
-I'm currently learning Frontend Development, Python, Data Analysis, and gradually exploring AI & Machine Learning.
-
-I enjoy building projects and learning by doing.
-
-## 📬 Connect With Me
-
-- 💼 LinkedIn: https://linkedin.com/in/jahnvijain777
-- 💻 GitHub: https://github.com/jahnvijain777
-- 📧 Email: jahnvijain456@gmail.com
 
 ---
 
-⭐ If you like this project, consider giving it a star!
+## 📬 Connect With Me
+
+- 🌐 **Portfolio**: https://jahnvijain.vercel.app
+- 💻 **GitHub**: https://github.com/jahnvijain777
+- 💼 **LinkedIn**: https://www.linkedin.com/in/jahnvijain777
+- 📸 **Instagram**: https://www.instagram.com/mysterious_melody777/
+- 📧 **Email**: jahnvijain456@gmail.com
