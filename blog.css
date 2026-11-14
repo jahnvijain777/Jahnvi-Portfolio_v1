@@ -1075,20 +1075,6 @@ nav.nav-menu a.active {
     box-shadow: 0 0 18px rgba(37, 99, 235, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
-.copy-btn.mailto-btn {
-    background: rgba(56, 189, 248, 0.12);
-    border-color: rgba(56, 189, 248, 0.35);
-    color: var(--accent-cyan);
-    text-decoration: none;
-}
-
-.copy-btn.mailto-btn:hover {
-    background: var(--primary-blue);
-    border-color: var(--primary-blue);
-    color: #ffffff;
-    box-shadow: 0 0 18px rgba(37, 99, 235, 0.5);
-}
-
 .copy-btn.copied {
     background: #10b981;
     border-color: #10b981;
